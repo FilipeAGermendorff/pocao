@@ -1,4 +1,4 @@
-setDefaultTab("hp")
+setDefaultTab("main")
 macro(100, "CURA AMIGO", function()
   for _, creature in pairs(getSpectators(posz())) do
     local heal_player = creature:getName();
